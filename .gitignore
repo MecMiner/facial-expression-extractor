@@ -1,0 +1,52 @@
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dados gerados pelo Pipeline (Dataset e Imagens)
+dataset_extraido/
+imagens_teste/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Arquivos de Vídeo de Entrada
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Planilhas temporárias ou de catálogo
+*_timeline*.csv
+catalogo_*.csv
+
+# Diretórios temporários criados em runtime
+pyfeat_calib_*/
+pyfeat_api_*/
+pyfeat_frames_*/
+
+# Caches de modelos neurais e Hugging Face
+.cache/
+huggingface/
+checkpoints/
+
+# Configurações de IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de Sistema Operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
